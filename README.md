@@ -1,4 +1,14 @@
 # InsightOpsAI
+** Enterprise knowledge and operations copilot**
+
+[![Python](https://img.shields.io/badge/Python-3.11-blue.svg)](https://www.python.org/)
+[![FastAPI](https://img.shields.io/badge/API-FastAPI-009688.svg)](https://fastapi.tiangolo.com/)
+[![LangChain](https://img.shields.io/badge/AI-LangChain-orange.svg)](https://www.langchain.com/)
+[![LangGraph](https://img.shields.io/badge/Agents-LangGraph-purple.svg)](https://www.langchain.com/langgraph)
+[![PostgreSQL](https://img.shields.io/badge/Database-PostgreSQL%20%2B%20pgvector-336791.svg)](https://github.com/pgvector/pgvector)
+[![Redis](https://img.shields.io/badge/Memory-Redis-red.svg)](https://redis.io/)
+[![React](https://img.shields.io/badge/UI-React-61DAFB.svg)](https://react.dev/)
+[![Vite](https://img.shields.io/badge/Build-Vite-646CFF.svg)](https://vitejs.dev/)
 
 InsightOpsAI is an enterprise knowledge and railway-operations copilot. The
 backend exposes a FastAPI service that classifies user intent, routes requests
@@ -10,6 +20,11 @@ onboarding, operations tickets, analytics, and settings.
 The project is designed for interview discussion around RAG architecture,
 agentic routing, RBAC-aware retrieval, full-stack integration, and operational
 AI use cases.
+
+
+## High-Level Architecture
+
+![InsightOpsAI Architecture Diagram](./Insightops_architecture_diagram.png)
 
 ## Key Capabilities
 
@@ -36,10 +51,6 @@ AI use cases.
 | Data services | PostgreSQL, Redis via Docker Compose |
 | Frontend | React 19, Vite, React Router, Clerk |
 | Testing | Pytest, FastAPI TestClient |
-
-## High-Level Architecture
-
-![InsightOpsAI Architecture Diagram](./Insightops_architecture_diagram.png)
 
 ## Repository Layout
 
